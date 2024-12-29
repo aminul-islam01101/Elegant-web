@@ -23,7 +23,7 @@ body {
 }
 @layer utilities {
   .headings {
-    @apply text-2xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-6xl font-extrabold uppercase;
+    @apply text-2xl md:text-4xl lg:text-4xl xl:text-7xl 2xl:text-7xl font-extrabold uppercase;
   }
   .sub-heading {
     @apply text-base md:text-xl lg:text-4xl font-semibold uppercase text-[#D3D3D3];
@@ -37,4 +37,8 @@ body {
   .secondary_color {
     @apply text-[#DD4242];
   }
+}
+
+.text_head {
+  line-height: 5rem;
 }
