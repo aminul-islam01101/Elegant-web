@@ -23,7 +23,7 @@ body {
 }
 @layer utilities {
   .headings {
-    @apply text-2xl md:text-4xl lg:text-4xl xl:text-7xl 2xl:text-7xl font-extrabold uppercase;
+    @apply text-2xl md:text-4xl lg:text-4xl xl:text-6xl 2xl:text-7xl font-extrabold uppercase;
   }
   .sub-heading {
     @apply text-base md:text-xl lg:text-4xl font-semibold uppercase text-[#D3D3D3];
@@ -36,6 +36,9 @@ body {
   }
   .secondary_color {
     @apply text-[#DD4242];
+  }
+  .sub_color{
+    @apply text-[#6C6C6C]
   }
 }
 

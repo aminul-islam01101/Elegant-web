@@ -13,7 +13,7 @@ import side2 from "../../../../public/assets/banner-side-2.png";
 const Banner = () => {
   return (
     <div>
-      <div className={`${style.bgWrap}`}>
+      <div className={`${style.bgWrap} h-full`}>
         <Image
           alt="Banner"
           src={banner}
@@ -23,11 +23,12 @@ const Banner = () => {
           sizes="100vw"
           style={{
             objectFit: "cover",
+            backgroundPosition: "center",
           }}
         />
       </div>
-      <div className={`${style.bgText} text-white max-w-[1400px] flex flex-col justify-center items-center`}>
-        <div className="flex flex-row justify-center items-center mt-[40%] 2xl:mt-[60%] !z-0">
+      <div className={`${style.bgText} text-white max-w-[1400px] mx-auto h-full px-4`}>
+        <div className="flex flex-row justify-center items-center !z-0">
           <div className="space-y-5 flex flex-col h-full justify-center">
             <SocialMediaLink imageSrc={fb} link={"/hello"} altText="facebook" />
             <SocialMediaLink
@@ -75,8 +76,11 @@ const Banner = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-14 self-center text-center">
-          <hr className="h-px my-3 bg-gray-200 border-0 dark:bg-gray-700 rotate-90" />
+        <div className="flex flex-col gap-14 self-center text-center ">
+          <div className="w-20 mx-auto">
+           <hr className="h-px my-3 bg-gray-200 border-0 dark:bg-gray-700 rotate-90 block" />  
+          </div>
+         
           <span className="rotate-90 text-sm">Scroll Down</span>
         </div>
       </div>
