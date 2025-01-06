@@ -76,7 +76,7 @@ const Banner = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-14 self-center text-center ">
+        <div className=" flex-col gap-14 self-center text-center hidden">
           <div className="w-20 mx-auto">
            <hr className="h-px my-3 bg-gray-200 border-0 dark:bg-gray-700 rotate-90 block" />  
           </div>
