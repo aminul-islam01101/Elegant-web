@@ -15,10 +15,10 @@ const AboutUs = () => {
           </div>
 
           {/* Heading */}
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-snug text-white">
-            Your Vision <span className="text-[#DD4242]">Our Expertise</span>
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold leading-snug text-white">
+            Your Vision, <span className="text-[#DD4242]">Our Expertise...</span>
             <br />
-            Your Success <br />
+            Your Success, <br />
             <span className="text-[#DD4242]">Get Noticed. Generate Leads. Dominate.</span>
           </h2>
 
@@ -53,7 +53,7 @@ const AboutUs = () => {
   {/* Description */}
   <p className="text-[#9ca3af] text-lg leading-relaxed max-w-lg mx-auto lg:mx-0">
   Fusce consectetur ligula molestie nunc maximus. Ac egestas risus placerat. Cras accumsan varius placerat. Vestibulum varius sodales ultrices.
-    Integer congue cursus risus, ac vehicula ex. Aliquet in elit amet molestie risus.
+  Integer congue cursus risus, ac vehicula ex. Aliquet in elit amet molestie risus.
   </p>
 
   {/* Stats Grid */}
@@ -78,7 +78,7 @@ const AboutUs = () => {
 
   {/* Button */}
   <button className="bg-[#DD4242] hover:bg-[#FF6666] text-white py-3 px-10 rounded-full font-bold uppercase transition-all mt-6">
-    Learn More
+    About Us
   </button>
 </div>
 
