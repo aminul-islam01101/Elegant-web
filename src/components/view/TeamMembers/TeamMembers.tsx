@@ -2,8 +2,8 @@ import React from "react";
 
 const TeamMembers = () => {
   return (
-    <section className="bg-black text-white py-16 px-4">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12">
+    <section className="bg-black text-white py-16">
+      <div className="max-w-[1400px] px-4 mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12">
         {/* Left Section: Title and Button */}
         <div className="lg:col-span-4 space-y-6">
           <p className="text-sm font-medium text-[#9ca3af]">Team Members</p>

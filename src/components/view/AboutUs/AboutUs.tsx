@@ -3,7 +3,7 @@ import React from "react";
 const AboutUs = () => {
   return (
     <section className="bg-gradient-to-r from-[#0a0a0a] to-[#333333] py-20 px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div className="max-w-[1400px] px-4 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* Left Section */}
         <div className="space-y-8">
           {/* Title Section */}
