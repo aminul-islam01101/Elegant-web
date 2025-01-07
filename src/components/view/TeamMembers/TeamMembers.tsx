@@ -19,7 +19,7 @@ const TeamMembers = () => {
         <div className="lg:col-span-5 space-y-6">
           {[
             { id: "01", name: "Thomas Charles", role: "App Designer", active: false },
-            { id: "02", name: "Nancy Ashley", role: "Creative Designer", active: true },
+            { id: "02", name: "Nancy Ashley", role: "Creative Designer", active: false },
             { id: "03", name: "Nicole Helen", role: "UX Developer", active: false },
             { id: "04", name: "Patrick Jack", role: "Content Writing", active: false },
             { id: "05", name: "Diane Lauren", role: "App Designer", active: false },
