@@ -80,7 +80,6 @@ const Banner = () => {
           <div className="w-20 mx-auto">
            <hr className="h-px my-3 bg-gray-200 border-0 dark:bg-gray-700 rotate-90 block" />  
           </div>
-         
           <span className="rotate-90 text-sm">Scroll Down</span>
         </div>
       </div>
