@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Marquee() {
   return (
-    <div className="bg-black h-full w-full flex flex-col">
+    <div className="bg-[#121212] h-full w-full flex flex-col">
       <MarqueeItem speed={100} x={["0%", "-100%"]}>
         Design development portfolio
       </MarqueeItem>
