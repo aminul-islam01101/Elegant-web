@@ -8,6 +8,7 @@ import React from "react";
 import OurBrands from "@/components/view/OurBrands/OurBrands";
 import Blogs from "@/components/view/Blogs/Blogs";
 import Testimonial from "@/components/view/Testimonial/Testimonial";
+import PricePlan from "@/components/view/PricePlan/PricePlan";
 
 export default function HomePage() {
   return (
@@ -21,6 +22,7 @@ export default function HomePage() {
       <MarketingBrands />
       <Blogs/>
       <Testimonial/>
+      <PricePlan/>
     </div>
   );
 }
