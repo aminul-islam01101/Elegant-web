@@ -3,7 +3,7 @@ import React from "react";
 const DataServices = () => {
   return (
     <section className="bg-black text-white py-16 px-4">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-[1400px] px-4 mx-auto">
         {/* Section Header */}
         <div className="flex justify-between items-center mb-12">
           <div>
