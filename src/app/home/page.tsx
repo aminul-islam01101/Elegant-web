@@ -6,6 +6,7 @@ import MarketingBrands from "@/components/view/MarketingBrands/MarketingBrands";
 import Marquee from "@/components/view/Marquee/Marquee";
 import React from "react";
 import OurBrands from "@/components/view/OurBrands/OurBrands";
+import Blogs from "@/components/view/Blogs/Blogs";
 
 export default function HomePage() {
   return (
@@ -17,6 +18,7 @@ export default function HomePage() {
       <TeamMembers/>
       <OurBrands/>
       <MarketingBrands />
+      <Blogs/>
     </div>
   );
 }
