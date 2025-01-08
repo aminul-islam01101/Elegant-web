@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonial = () => {
   return (
-    <section className="bg-black text-white py-16 px-4 lg:px-20">
+    <section className="bg-[#121212] text-white py-16 px-4 lg:px-20">
       <div className="max-w-[1400px] px-4 mx-auto">
         {/* Section Header */}
         <div className="flex justify-between items-center mb-12">
