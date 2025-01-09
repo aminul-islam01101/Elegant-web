@@ -4,8 +4,6 @@ import DataServices from "@/components/view/DataServices/DataServices";
 import TeamMembers from "@/components/view/TeamMembers/TeamMembers";
 import MarketingBrands from "@/components/view/MarketingBrands/MarketingBrands";
 import Marquee from "@/components/view/Marquee/Marquee";
-import React from "react";
-import OurBrands from "@/components/view/OurBrands/OurBrands";
 
 export default function HomePage() {
   return (
@@ -14,8 +12,7 @@ export default function HomePage() {
       <AboutUs />
       <DataServices />
       <Marquee />
-      <TeamMembers/>
-      <OurBrands/>
+      <TeamMembers />
       <MarketingBrands />
     </div>
   );
