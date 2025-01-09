@@ -1,5 +1,6 @@
 import Image from "next/image";
 import logo from "../../../../public/assets/marketing7.png";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -20,7 +21,7 @@ export default function Footer() {
         {/* horizontal line */}
         <hr className="px-1 my-10" />
         {/* logo and links */}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10">
           {/* logo and paragraph */}
           <div className="flex flex-col space-y-4">
             <Image src={logo} width={141} height={75} alt="LOGO" />
@@ -29,6 +30,46 @@ export default function Footer() {
               the readable content of a page when looking.
             </p>
           </div>
+          {/* navigate links */}
+          <div className="flex border w-full justify-between">
+            {/* pages */}
+            <div className="flex flex-col">
+              <span className="text-lg text-[#DD4242] font-semibold">
+                Pages
+              </span>
+              <Link href="" className="link link-hover">
+                Branding
+              </Link>
+              <Link href="/" className="link link-hover">
+                Design
+              </Link>
+              <Link href="/" className="link link-hover">
+                Marketing
+              </Link>
+              <Link href="/" className="link link-hover">
+                Advertisement
+              </Link>
+            </div>
+            {/* Services */}
+            <div className="flex flex-col">
+              <span className="text-lg text-[#DD4242] font-semibold">
+                Services
+              </span>
+              <Link href="" className="link link-hover">
+                Branding
+              </Link>
+              <Link href="/" className="link link-hover">
+                Design
+              </Link>
+              <Link href="/" className="link link-hover">
+                Marketing
+              </Link>
+              <Link href="/" className="link link-hover">
+                Advertisement
+              </Link>
+            </div>
+          </div>
+          {/* image */}
         </div>
       </div>
     </footer>
