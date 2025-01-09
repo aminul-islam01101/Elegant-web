@@ -34,12 +34,12 @@ export default function MarketingBrands() {
           </div>
         </div>
         {/* card section */}
-        <div className="grid grid-cols-2 md:grid-cols-5 mx-auto justify-between gap-x-24 gap-y-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mx-auto justify-between md:gap-x-14 xl:gap-x-24 gap-y-10">
           {cardData.map((item) => {
             return (
               <div
                 key={item.id}
-                className="border w-[200px] text-center flex justify-center items-center h-[100px] hover:bg-red-800 rounded-md"
+                className="border w-[300px] md:w-[200px] text-center flex justify-center items-center h-[100px] hover:bg-red-800 rounded-md"
               >
                 <Image
                   src={item.image}
