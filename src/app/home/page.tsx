@@ -17,9 +17,9 @@ export default function HomePage() {
       <Marquee />
       <TeamMembers />
       <MarketingBrands />
+      <PricePlan/>
       <Blogs/>
       <Testimonial/>
-      <PricePlan/>
     </div>
   );
 }
