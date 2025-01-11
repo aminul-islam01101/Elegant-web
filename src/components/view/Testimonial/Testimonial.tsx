@@ -77,6 +77,7 @@ const Testimonial = () => {
                 className="h-full w-full object-cover rounded-full"
               />
             </div>
+            <div className="hidden lg:block h-40 w-[1px] bg-gray-700"></div>
             <div className="text-center lg:text-left">
               <p className="text-gray-400 text-lg max-w-md">
                 {testimonials[activeSlide * 2].text}
@@ -88,7 +89,7 @@ const Testimonial = () => {
           </div>
 
           {/* Divider */}
-          <div className="hidden lg:block h-40 w-[1px] bg-gray-700"></div>
+          {/* <div className="hidden lg:block h-40 w-[1px] bg-gray-700"></div> */}
 
           {/* Right Testimonial */}
           <div className="flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-6 bg-gradient-to-r from-[#0a0a0a] to-[#333333] p-6 rounded-lg shadow-lg">
@@ -101,6 +102,7 @@ const Testimonial = () => {
                 className="h-full w-full object-cover rounded-full"
               />
             </div>
+            <div className="hidden lg:block h-40 w-[1px] bg-gray-700"></div>
             <div className="text-center lg:text-left">
               <p className="text-gray-400 text-lg max-w-md">
                 {testimonials[activeSlide * 2 + 1].text}
