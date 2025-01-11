@@ -22,7 +22,7 @@ const DataServices = () => {
           {/* Card 1 */}
           <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400">
             <div className="w-1/3 bg-gray-200 h-full"></div>
-            <div className="w-2/3 p-4">
+            <div className="w-2/3 p-4 hover:bg-red-500">
               <h3 className="text-lg font-bold">Branding Growth</h3>
               <p className="text-sm text-gray-400 mt-2">
                 You need to be sure there isn’t anything embarrassing hidden in
@@ -34,7 +34,7 @@ const DataServices = () => {
           {/* Card 2 */}
           <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400">
           <div className="w-1/3 bg-gray-200 h-full"></div>
-            <div className="w-2/3 p-4">
+            <div className="w-2/3 p-4 hover:bg-red-500">
               <h3 className="text-lg font-bold">Digital Marketing</h3>
               <p className="text-sm text-gray-400 mt-2">
                 You need to be sure there isn’t anything embarrassing hidden in
@@ -45,9 +45,9 @@ const DataServices = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="flex items-center bg-red-500 rounded-lg overflow-hidden shadow-lg border border-gray-400">
+          <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400">
             
-            <div className="w-2/3 p-4">
+            <div className="w-2/3 p-4 hover:bg-red-500">
               <h3 className="text-lg font-bold">UI & UX Design</h3>
               <p className="text-sm text-white mt-2">
                 You need to be sure there isn’t anything embarrassing hidden in
@@ -60,7 +60,7 @@ const DataServices = () => {
           {/* Card 4 */}
           <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400">
             
-            <div className="w-2/3 p-4">
+            <div className="w-2/3 p-4 hover:bg-red-500">
               <h3 className="text-lg font-bold">Focus Media</h3>
               <p className="text-sm text-gray-400 mt-2">
                 You need to be sure there isn’t anything embarrassing hidden in
@@ -73,7 +73,7 @@ const DataServices = () => {
           {/* Card 5 */}
           <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400">
             <div className="w-1/3 bg-gray-200 h-full"></div>
-            <div className="w-2/3 p-4">
+            <div className="w-2/3 p-4 hover:bg-red-500">
               <h3 className="text-lg font-bold">Branding</h3>
               <p className="text-sm text-gray-400 mt-2">
                 You need to be sure there isn’t anything embarrassing hidden in
@@ -85,7 +85,7 @@ const DataServices = () => {
           {/* Card 6 */}
           <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400">
             <div className="w-1/3 bg-gray-200 h-full"></div>
-            <div className="w-2/3 p-4">
+            <div className="w-2/3 p-4 hover:bg-red-500">
               <h3 className="text-lg font-bold">Digital Marketing</h3>
               <p className="text-sm text-gray-400 mt-2">
                 You need to be sure there isn’t anything embarrassing hidden in
