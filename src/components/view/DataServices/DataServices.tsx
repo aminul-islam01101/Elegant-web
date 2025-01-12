@@ -20,11 +20,11 @@ const DataServices = () => {
         {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Card 1 */}
-          <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400">
+          <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400 hover:border-red-500 transition group">
             <div className="w-1/3 bg-gray-200 h-full"></div>
-            <div className="w-2/3 p-4 hover:bg-red-500">
-              <h3 className="text-lg font-bold">Branding Growth</h3>
-              <p className="text-sm text-gray-400 mt-2">
+            <div className="w-2/3 p-4 group-hover:bg-red-500 transition">
+              <h3 className="text-lg font-bold group-hover:text-white">Branding Growth</h3>
+              <p className="text-sm text-gray-400 mt-2 group-hover:text-white">
                 You need to be sure there isn’t anything embarrassing hidden in
                 the middle of text.
               </p>
@@ -32,24 +32,22 @@ const DataServices = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400">
-          <div className="w-1/3 bg-gray-200 h-full"></div>
-            <div className="w-2/3 p-4 hover:bg-red-500">
-              <h3 className="text-lg font-bold">Digital Marketing</h3>
-              <p className="text-sm text-gray-400 mt-2">
+          <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400 hover:border-red-500 transition group">
+            <div className="w-1/3 bg-gray-200 h-full"></div>
+            <div className="w-2/3 p-4 group-hover:bg-red-500 transition">
+              <h3 className="text-lg font-bold group-hover:text-white">Digital Marketing</h3>
+              <p className="text-sm text-gray-400 mt-2 group-hover:text-white">
                 You need to be sure there isn’t anything embarrassing hidden in
                 the middle of text.
               </p>
             </div>
-            
           </div>
 
           {/* Card 3 */}
-          <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400">
-            
-            <div className="w-2/3 p-4 hover:bg-red-500">
-              <h3 className="text-lg font-bold">UI & UX Design</h3>
-              <p className="text-sm text-white mt-2">
+          <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400 hover:border-red-500 transition group">
+            <div className="w-2/3 p-4 group-hover:bg-red-500 transition">
+              <h3 className="text-lg font-bold group-hover:text-white">UI & UX Design</h3>
+              <p className="text-sm text-gray-400 mt-2 group-hover:text-white">
                 You need to be sure there isn’t anything embarrassing hidden in
                 the middle of text.
               </p>
@@ -58,11 +56,10 @@ const DataServices = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400">
-            
-            <div className="w-2/3 p-4 hover:bg-red-500">
-              <h3 className="text-lg font-bold">Focus Media</h3>
-              <p className="text-sm text-gray-400 mt-2">
+          <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400 hover:border-red-500 transition group">
+            <div className="w-2/3 p-4 group-hover:bg-red-500 transition">
+              <h3 className="text-lg font-bold group-hover:text-white">Focus Media</h3>
+              <p className="text-sm text-gray-400 mt-2 group-hover:text-white">
                 You need to be sure there isn’t anything embarrassing hidden in
                 the middle of text.
               </p>
@@ -71,11 +68,11 @@ const DataServices = () => {
           </div>
 
           {/* Card 5 */}
-          <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400">
+          <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400 hover:border-red-500 transition group">
             <div className="w-1/3 bg-gray-200 h-full"></div>
-            <div className="w-2/3 p-4 hover:bg-red-500">
-              <h3 className="text-lg font-bold">Branding</h3>
-              <p className="text-sm text-gray-400 mt-2">
+            <div className="w-2/3 p-4 group-hover:bg-red-500 transition">
+              <h3 className="text-lg font-bold group-hover:text-white">Branding</h3>
+              <p className="text-sm text-gray-400 mt-2 group-hover:text-white">
                 You need to be sure there isn’t anything embarrassing hidden in
                 the middle of text.
               </p>
@@ -83,11 +80,11 @@ const DataServices = () => {
           </div>
 
           {/* Card 6 */}
-          <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400">
-            <div className="w-1/3 bg-gray-200 h-full"></div>
-            <div className="w-2/3 p-4 hover:bg-red-500">
-              <h3 className="text-lg font-bold">Digital Marketing</h3>
-              <p className="text-sm text-gray-400 mt-2">
+          <div className="flex items-center bg-black rounded-lg overflow-hidden shadow-lg border border-gray-400 hover:border-red-500 transition group">
+            <div className="w-1/3 bg-gray-200 h-full "></div>
+            <div className="w-2/3 p-4 group-hover:bg-red-500 transition">
+              <h3 className="text-lg font-bold group-hover:text-white">Digital Marketing</h3>
+              <p className="text-sm text-gray-400 mt-2 group-hover:text-white">
                 You need to be sure there isn’t anything embarrassing hidden in
                 the middle of text.
               </p>
