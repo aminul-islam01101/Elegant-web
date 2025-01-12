@@ -7,6 +7,8 @@ import Marquee from "@/components/view/Marquee/Marquee";
 import Blogs from "@/components/view/Blogs/Blogs";
 import Testimonial from "@/components/view/Testimonial/Testimonial";
 import PricePlan from "@/components/view/PricePlan/PricePlan";
+import OurHistory from "@/components/view/OurHistory/OurHistory";
+
 
 export default function HomePage() {
   return (
@@ -17,9 +19,10 @@ export default function HomePage() {
       <Marquee />
       <TeamMembers />
       <MarketingBrands />
-      <PricePlan/>
-      <Blogs/>
-      <Testimonial/>
+      <PricePlan />
+      <OurHistory />
+      <Blogs />
+      <Testimonial />
     </div>
   );
 }
