@@ -26,15 +26,15 @@ const TeamMembers = () => {
           ].map((member) => (
             <div
               key={member.id}
-              className={`flex items-center justify-between border-b border-gray-700 pb-4 hover:bg-red-500 transition ${
+              className={`flex items-center justify-between border-b border-gray-700 pb-4 transition ${
                 member.active ? "text-red-500" : ""
               }`}
             >
               <div className="flex items-center space-x-4">
-                <span className="text-xl font-bold hover:text-gray-500">{member.id}</span>
-                <h3 className="text-lg font-bold hover:text-gray-500">{member.name}</h3>
+                <span className="text-xl font-bold hover:text-red-500">{member.id}</span>
+                <h3 className="text-lg font-bold hover:text-red-500">{member.name}</h3>
               </div>
-              <p className="text-sm text-gray-400 hover:text-gray-500">{member.role}</p>
+              <p className="text-sm text-gray-400 hover:text-red-500">{member.role}</p>
               {/* {member.active && <span className="text-red-500 text-4xl font-bold"></span>} */}
             </div>
           ))}
