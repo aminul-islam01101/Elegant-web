@@ -42,7 +42,7 @@ export default function OurHistory() {
           <p className="text-[#9ca3af] text-lg leading-relaxed max-w-2xl">
             here are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
+            humour, or randomized words which don't look even slightly
             believable.
           </p>
           <button className="px-6 py-2 bg-red-500 text-white rounded-full text-sm font-medium hover:bg-red-600 transition">
