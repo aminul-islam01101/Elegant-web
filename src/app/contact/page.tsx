@@ -67,7 +67,7 @@ const ContactPage: NextPage = () => {
       <div className="absolute w-full h-full overflow-hidden z-0">
         <div className="w-full h-full">
           <Image
-            alt="Lamborghini"
+            alt="contact us"
             src={bg}
             layout="fill"
             objectFit="cover"
@@ -87,7 +87,7 @@ const ContactPage: NextPage = () => {
           <div className="mb-6 flex flex-col items-center">
             <span className="text-gray-300 mt-2 uppercase">Contact Us</span>
           </div>
-
+          {/* form field */}
           <form
             onSubmit={handleSubmit(onSubmit)}
             className="flex flex-col justify-center items-center"
