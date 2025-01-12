@@ -63,8 +63,8 @@ const PricePlan: React.FC = () => {
           </div>
 
           {/* Standard Plan */}
-          <div className="w-full lg:w-1/3 bg-[#292929] text-left p-8 rounded-lg border border-red-500 relative group">
-            <div className="hover:bg-red-500 transition p-6 rounded-t-lg group-hover:rounded-b-none">
+          <div className="w-full lg:w-1/3 bg-[#292929] text-left p-8 rounded-lg relative group">
+            <div className="bg-red-500 transition p-6 rounded-t-lg group-hover:rounded-b-none">
               <div className="flex justify-between items-center mb-6">
                 <div>
                   <p className="text-3xl font-bold text-white mb-2">
