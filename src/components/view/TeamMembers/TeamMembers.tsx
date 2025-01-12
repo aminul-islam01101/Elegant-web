@@ -26,7 +26,7 @@ const TeamMembers = () => {
           ].map((member) => (
             <div
               key={member.id}
-              className={`flex items-center justify-between border-b border-gray-700 pb-4 hover:bg-gray-800 transition ${
+              className={`flex items-center justify-between border-b border-gray-700 pb-4 transition ${
                 member.active ? "text-red-500" : ""
               }`}
             >

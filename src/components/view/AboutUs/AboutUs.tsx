@@ -59,25 +59,25 @@ const AboutUs = () => {
   {/* Stats Grid */}
   <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
     <div>
-      <h3 className="text-4xl font-extrabold text-white">25K+</h3>
+      <h3 className="text-4xl font-semibold text-white">25K+</h3>
       <p className="text-[#9ca3af]">Projects Completed</p>
     </div>
     <div>
-      <h3 className="text-4xl font-extrabold text-white">15K</h3>
+      <h3 className="text-4xl font-semibold text-white">15K</h3>
       <p className="text-[#9ca3af]">Happy Customers</p>
     </div>
     <div>
-      <h3 className="text-4xl font-extrabold text-white">9K+</h3>
+      <h3 className="text-4xl font-semibold text-white">9K+</h3>
       <p className="text-[#9ca3af]">Years Experience</p>
     </div>
     <div>
-      <h3 className="text-4xl font-extrabold text-white">56+</h3>
+      <h3 className="text-4xl font-semibold text-white">56+</h3>
       <p className="text-[#9ca3af]">Achievements</p>
     </div>
   </div>
 
   {/* Button */}
-  <button className="bg-[#DD4242] hover:bg-[#FF6666] text-white py-3 px-10 rounded-full font-bold uppercase transition-all mt-6">
+  <button className="bg-[#DD4242] hover:bg-[#FF6666] text-white py-3 px-10 rounded-full font-semibold uppercase transition-all mt-6">
     About Us
   </button>
 </div>
