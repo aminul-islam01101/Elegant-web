@@ -1,0 +1,14 @@
+.bgWrap {
+    position: fixed;
+    height: 50vh;
+    width: 100vw;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .bgText {
+    text-align: center;
+    padding-top: 20vh;
+    width: full;
+    height: 50vh;
+  }
