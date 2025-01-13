@@ -21,7 +21,7 @@ const FaqHome = () => {
       </div>
       <div className={`${style.bgText} text-white max-w-[1400px] mx-auto h-full px-4`}>
         <div>
-            <span className="text-6xl text-white font-bold">Services</span>
+            <span className="text-6xl text-white font-bold">Faq</span>
             <p className="text-white text-lg font-normal mt-2">Home / Page / Faq</p>
         </div>
       </div>
