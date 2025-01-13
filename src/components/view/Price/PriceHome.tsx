@@ -1,8 +1,9 @@
 import Image from "next/image";
 import banner from "../../../../public/assets/mainBg.png";
-import style from "./FaqHome.module.css";
+import style from "./PriceHome.module.css";
 
-const FaqHome = () => {
+
+const PriceHome = () => {
   return (
     <div>
       <div className={`${style.bgWrap} h-full`}>
@@ -21,12 +22,12 @@ const FaqHome = () => {
       </div>
       <div className={`${style.bgText} text-white max-w-[1400px] mx-auto h-full px-4`}>
         <div>
-            <span className="text-6xl text-white font-bold">Faq</span>
-            <p className="text-white text-lg font-normal mt-2">Home / Page / Faq</p>
+            <span className="text-6xl text-white font-bold">Price Plan</span>
+            <p className="text-white text-lg font-normal mt-2">Home / Page / Price plan</p>
         </div>
       </div>
     </div>
   );
 };
 
-export default FaqHome;
+export default PriceHome;
