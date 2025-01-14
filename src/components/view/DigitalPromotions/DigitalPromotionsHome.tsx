@@ -1,6 +1,6 @@
 import Image from "next/image";
 import banner from "../../../../public/assets/mainBg.png";
-import style from "./DigitalPromotionsHome.module.css";
+import style from "./DigitalPromotions.module.css";
 
 
 const DigitalPromotionsHome = () => {
@@ -22,8 +22,8 @@ const DigitalPromotionsHome = () => {
       </div>
       <div className={`${style.bgText} text-white max-w-[1400px] mx-auto h-full px-4`}>
         <div>
-            <span className="text-6xl text-white font-bold">Team Members</span>
-            <p className="text-white text-lg font-normal mt-2">Home / Page / Team Members</p>
+            <span className="text-6xl text-white font-bold">Digital Promotions</span>
+            <p className="text-white text-lg font-normal mt-2">Home / Page / Digital Promotions</p>
         </div>
       </div>
     </div>
