@@ -1,84 +1,121 @@
 import React from "react";
+import Image from "next/image";
 
-const DigitalPromotionsMain = () => {
+const DigitalPromotions = () => {
   return (
     <section className="bg-[#121212] text-white py-16">
-      <div className="max-w-[1400px] mx-auto text-white py-10 px-4">
-        {/* Top Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Left Content */}
+      <div className="max-w-[1400px] mx-auto px-6">
+        {/* Header Section */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          {/* Left Side */}
           <div>
-            <h2 className="text-red-500 text-4xl font-bold mb-2">
+            <h2 className="text-[#FF4A57] text-3xl font-bold uppercase mb-3">
               Digital Promotions
             </h2>
-            <h1 className="text-4xl font-bold mb-4">Monumental Brand Growth</h1>
-            <p className="mb-4">
-              <span className="font-semibold">Description :</span>
-              <br />
-              Here are many variations of passages of Lorem Ipsum available, but
-              the majority have suffered alteration in some form.
-            </p>
-            <p className="mb-4">
-              <span className="font-semibold">Client :</span>
-              <br />
-              Elevate your business with our cutting-edge digital marketing
-              internet game-changing ideas for explosive growth.
-            </p>
-            <p className="mb-4">
-              <span className="font-semibold">Category :</span>
-              <br />
-              Generous leads and combinable online wins. Our all-in-one
-              solutions: the breeding ground for breakthrough ideas.
-            </p>
-            <p className="mb-4">
-              <span className="font-semibold">Social Share :</span>
-              <br />
-              Fb - Tw - In - Yt
-            </p>
+            <h1 className="text-5xl font-bold leading-tight mb-6">
+              Monumental Brand Growth
+            </h1>
+            <div className="space-y-6">
+              <div>
+                <span className="text-lg font-semibold">Description:</span>
+                <p className="text-gray-400 mt-2">
+                  Variations of Lorem Ipsum have evolved over the years, with
+                  some suffering alteration in some form, but the essence
+                  remains intact.
+                </p>
+              </div>
+              <div>
+                <span className="text-lg font-semibold">Client:</span>
+                <p className="text-gray-400 mt-2">
+                  Elevate your business with cutting-edge ideas that redefine
+                  growth.
+                </p>
+              </div>
+              <div>
+                <span className="text-lg font-semibold">Category:</span>
+                <p className="text-gray-400 mt-2">
+                  Digital Marketing, Social Media Campaigns.
+                </p>
+              </div>
+              <div>
+                <span className="text-lg font-semibold">Social Share:</span>
+                <p className="text-gray-400 mt-2">FB - TW - IN - YT</p>
+              </div>
+            </div>
           </div>
 
-          {/* Right Content */}
+          {/* Right Side */}
           <div className="flex justify-center items-center">
-            <div className="w-[300px] h-[200px] bg-gray-400 rounded-lg"></div>
+            <Image
+              src="https://i.postimg.cc/J4hXj1BY/grap.jpg" 
+              alt="Promotional Graphic"
+              width={500}
+              height={300}
+              className="rounded-lg shadow-lg"
+            />
           </div>
         </div>
 
         {/* Bottom Section */}
         <div className="mt-16">
-          <h2 className="text-xl font-bold text-white mb-6">
+          <h2 className="text-3xl font-bold mb-6">
             Build A Stronger Future For{" "}
-            <span className="text-red-500">Your Business</span>
+            <span className="text-[#FF4A57]">Your Business</span>
           </h2>
           <p className="text-gray-400 mb-8">
-            Quickly implement mission-critical information. Leverage agile
-            frameworks to provide a robust synopsis for high-level overviews.
-            Bring to the table win-win survival strategies to ensure proactive
-            domination. At the end of the day, going forward, a new normal that
-            has evolved from generation X is on the runway heading towards a
-            streamlined cloud solution.
+          Quisque interdum risus in fermentum sagittis. Mauris lectus erat, molestie quis malesuada quis, sagittis ut dui. Maecenas et interdum ex. Nullam non magna eu nisi congue maximus ac vel justo. Nulla viverra sapien eros, ac convallis urna semper quis. Donec convallis turpis justo, a viverra nisi cursus sit amet. Proin aliquet erat dolor, non tempus tellus euismod pellentesque. Nam iaculis diam tellus. Donec tristique, erat sit amet finibus semper, risus ipsum volutpat lacus, sit amet ultrices augue elit sit amet velit. In facilisis vulputate vestibulum. Suspendisse potenti. Curabitur a sem purus. Ut ut elit sed leo euismod laoreet sit amet feugiat ex. Nulla et enim velit. Maecenas posuere sem quis nunc faucibus, quis rutrum nunc commodo.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="flex items-center space-x-2">
-              <div className="w-2.5 h-2.5 bg-red-500 rounded-full"></div>
-              <p>Ignite your passion for the exquisite.</p>
+            <div className="flex items-center">
+              <div className="w-3 h-3 bg-[#FF4A57] rounded-full mr-3"></div>
+              <p className="text-gray-400">Ignite your passion for success.</p>
             </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-2.5 h-2.5 bg-red-500 rounded-full"></div>
-              <p>Experience elegance, timeless.</p>
+            <div className="flex items-center">
+              <div className="w-3 h-3 bg-[#FF4A57] rounded-full mr-3"></div>
+              <p className="text-gray-400">Experience timeless growth.</p>
             </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-2.5 h-2.5 bg-red-500 rounded-full"></div>
-              <p>Ignite your passion for the exquisite.</p>
+            <div className="flex items-center">
+              <div className="w-3 h-3 bg-[#FF4A57] rounded-full mr-3"></div>
+              <p className="text-gray-400">Achieve breakthrough results.</p>
             </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-2.5 h-2.5 bg-red-500 rounded-full"></div>
-              <p>From heart to heart, an unbreakable bond.</p>
+            <div className="flex items-center">
+              <div className="w-3 h-3 bg-[#FF4A57] rounded-full mr-3"></div>
+              <p className="text-gray-400">
+                Build strong connections that last.
+              </p>
+            </div>
+            <div className="flex items-center">
+              <div className="w-3 h-3 bg-[#FF4A57] rounded-full mr-3"></div>
+              <p className="text-gray-400">
+                Build strong connections that last.
+              </p>
+            </div>
+            <div className="flex items-center">
+              <div className="w-3 h-3 bg-[#FF4A57] rounded-full mr-3"></div>
+              <p className="text-gray-400">
+                Build strong connections that last.
+              </p>
+            </div>
+            <div className="flex items-center">
+              <div className="w-3 h-3 bg-[#FF4A57] rounded-full mr-3"></div>
+              <p className="text-gray-400">
+                Build strong connections that last.
+              </p>
+            </div>
+            <div className="flex items-center">
+              <div className="w-3 h-3 bg-[#FF4A57] rounded-full mr-3"></div>
+              <p className="text-gray-400">
+                Build strong connections that last.
+              </p>
             </div>
           </div>
         </div>
 
+        {/* horizontal line */}
+        <hr className="px-1 my-10" />
+
         {/* Navigation */}
-        <div className="flex justify-between items-center mt-10 text-gray-400">
+        <div className="flex justify-between items-center mt-12 text-gray-400">
           <button className="flex items-center space-x-2 hover:text-white">
             <span>&larr;</span>
             <span>Previous</span>
@@ -93,4 +130,4 @@ const DigitalPromotionsMain = () => {
   );
 };
 
-export default DigitalPromotionsMain;
+export default DigitalPromotions;
