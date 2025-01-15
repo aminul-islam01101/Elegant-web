@@ -61,14 +61,44 @@ const ServicesDetailsMain = () => {
         {/* Main Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Left Content */}
-          <div>
-            <h3 className="text-2xl font-bold text-white mb-6">
-              Proin Non Eros <span className="text-red-500">Elementumbibendum</span> Vehicula
-            </h3>
-            <p className="text-gray-400 leading-relaxed mb-6">
-              Vestibulum in ipsum velit. Aliquam libero sem, rutrum eu scelerisque ut, vehicula erat. Phasellus ac sem sed erat pos se quam dignissim.
-            </p>
-            <div className="w-[300px] h-[200px] bg-gray-500 rounded-lg"></div>
+          <div className="bg-black p-8 rounded-md">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h3 className="text-3xl font-bold text-white mb-6">
+                  Proin Non Eros <span className="text-red-500">Elementumbibendum</span> Vehicula
+                </h3>
+                <p className="text-gray-400 leading-relaxed mb-6">
+                  Vestibulum in ipsum velit. Aliquam libero sem, rutrum eu scelerisque ut, vehicula erat. Phasellus ac sem sed erat pos se quam dignissim.
+                  Mauris feugiat, nisi nec dapibus a, a gravida ante, non aliquet odio elit ac orci. Curabitur tincidunt nunc eu rhoncus justo.
+                </p>
+                
+              </div>
+              <div>
+                <div>
+                <div className="w-[300px] h-[200px] bg-gray-500 rounded-lg"></div>
+                </div>
+                <div>
+                 <div>
+                <ul className="space-y-4 text-gray-400">
+                  <li className="flex items-center gap-2">
+                    <span className="text-red-500">⮞</span> Vestibulum in ipsum velit. Aliquam libero sem asdf asf
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="text-red-500">⮞</span> Ut, vehicula a erat. Phasellus ac sem sed erat pos se
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="text-red-500">⮞</span> Feugiat, nisi nec dapibus a a gas dictum, ligula nulla
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="text-red-500">⮞</span> Odio elit ac orci. Curabitur tincidunt nunc eu rhoncus justo
+                  </li>
+                </ul>
+              </div>
+                </div>
+              </div>
+
+             
+            </div>
           </div>
 
           {/* Right Content */}
@@ -108,8 +138,7 @@ const ServicesDetailsMain = () => {
           </div>
         </div>
 
-        
-        {/* Requirements Section */}
+        {/* Other Sections */}
         <div className="mt-16">
           <h3 className="text-2xl font-bold text-white mb-6">Requirements</h3>
           <p className="text-gray-400 leading-relaxed">
@@ -117,7 +146,6 @@ const ServicesDetailsMain = () => {
           </p>
         </div>
 
-        {/* Capture Attention Section */}
         <div className="mt-16">
           <h3 className="text-2xl font-bold text-white mb-6">
             Capture Attention And Ignite Your Audience
@@ -142,25 +170,21 @@ const ServicesDetailsMain = () => {
               key={service.id}
               className="bg-gradient-to-r from-[#0a0a0a] to-[#333333] rounded-lg p-6 shadow-lg relative overflow-hidden group"
             >
-              {/* Title and Index */}
               <div className="flex items-center gap-2 mb-4">
                 <span className="text-2xl font-bold text-red-500">{`0${index + 1}`}</span>
                 <h3 className="text-xl font-bold text-white group-hover:text-red-500 transition duration-300">
                   {service.title}
                 </h3>
               </div>
-              {/* Description */}
               <p className="text-gray-400 text-sm font-normal mb-6 pl-8">
                 {service.description}
               </p>
-              {/* Icon and Arrow */}
               <div className="flex justify-between items-center pl-8">
                 <div className="pb-12">
                   <div className="w-12 h-12 flex justify-center items-center bg-black rounded-full shadow-md border-red-500 group-hover:bg-red-500 transition duration-300 border-2 group-hover:border-red-500">
                     <GoArrowUpRight className="text-red-500 text-2xl group-hover:text-white transition duration-300" />
                   </div>
                 </div>
-                {/* Image Icon */}
                 <div className="w-40 h-40">
                   <Image
                     src={service.icon}
@@ -174,7 +198,6 @@ const ServicesDetailsMain = () => {
             </div>
           ))}
         </div>
-
 
         {/* Navigation */}
         <div className="flex justify-between items-center mt-12 text-gray-400">
