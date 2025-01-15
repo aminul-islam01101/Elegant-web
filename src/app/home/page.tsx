@@ -8,12 +8,14 @@ import Blogs from "@/components/view/Blogs/Blogs";
 import Testimonial from "@/components/view/Testimonial/Testimonial";
 import PricePlan from "@/components/view/PricePlan/PricePlan";
 import OurHistory from "@/components/view/OurHistory/OurHistory";
+import Banner2 from "@/components/view/Banner2/Banner2";
 
 
 export default function HomePage() {
   return (
     <div>
-      <Banner />
+      {/* <Banner /> */}
+      <Banner2 />
       <AboutUs />
       <DataServices />
       <Marquee />
