@@ -33,9 +33,14 @@ const ServicesDetailsMain = () => {
             Web Development Branding
           </h2>
           <p className="text-gray-400 leading-relaxed">
-            Vestibulum in ipsum velit. Aliquam libero sem, rutrum eu scelerisque ut, vehicula erat. Phasellus ac sem sed erat pos se quam dignissim. Mauris feugiat, nisl nec dapibus a dictum, ligula nulla gravida ante.
+          Vestibulum in ipsum velit. Aliquam libero sem asfds asf, rutrum eu scelerisque ut, vehicula a erat. Phasellus ac sem sed erat pos se
+ quam dignissim. Mauris feugiat, nisi nec dapibuasas a gas dictum, ligula nulla gravida ante, non aliquet odio elit ac orci. Curabi tinc
+ Nunc eu rhoncus justo, nec mattis risus auris conse quat viverra sapien id lobortis. Vivamus auctor turpis vel dignissim licitudin.
           </p>
         </div>
+
+        {/* horizontal line */}
+        <hr className="px-1 my-10" />
 
         {/* Features Section */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
@@ -61,45 +66,58 @@ const ServicesDetailsMain = () => {
         {/* Main Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Left Content */}
-          <div className="bg-black p-8 rounded-md">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-              <div>
-                <h3 className="text-3xl font-bold text-white mb-6">
-                  Proin Non Eros <span className="text-red-500">Elementumbibendum</span> Vehicula
-                </h3>
-                <p className="text-gray-400 leading-relaxed mb-6">
-                  Vestibulum in ipsum velit. Aliquam libero sem, rutrum eu scelerisque ut, vehicula erat. Phasellus ac sem sed erat pos se quam dignissim.
-                  Mauris feugiat, nisi nec dapibus a, a gravida ante, non aliquet odio elit ac orci. Curabitur tincidunt nunc eu rhoncus justo.
-                </p>
-                
-              </div>
-              <div>
-                <div>
-                <div className="w-[300px] h-[200px] bg-gray-500 rounded-lg"></div>
-                </div>
-                <div>
-                 <div>
-                <ul className="space-y-4 text-gray-400">
-                  <li className="flex items-center gap-2">
-                    <span className="text-red-500">⮞</span> Vestibulum in ipsum velit. Aliquam libero sem asdf asf
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <span className="text-red-500">⮞</span> Ut, vehicula a erat. Phasellus ac sem sed erat pos se
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <span className="text-red-500">⮞</span> Feugiat, nisi nec dapibus a a gas dictum, ligula nulla
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <span className="text-red-500">⮞</span> Odio elit ac orci. Curabitur tincidunt nunc eu rhoncus justo
-                  </li>
-                </ul>
-              </div>
-                </div>
-              </div>
+          <div className=" p-8 rounded-md">
+  <div className="">
+    {/* Left Section */}
+    <div>
+      <h3 className="text-3xl font-bold text-white mb-6">
+        Proin Non Eros{" "}
+        <span className="text-red-500">Elementumbibendum</span> Vehicula
+      </h3>
+      <p className="text-gray-400 leading-relaxed mb-6">
+        Vestibulum in ipsum velit. Aliquam libero sem, rutrum eu scelerisque
+        ut, vehicula erat. Phasellus ac sem sed erat pos se quam dignissim.
+        Mauris feugiat, nisi nec dapibus a, gravida ante, non aliquet odio
+        elit ac orci. Curabitur tincidunt nunc eu rhoncus justo.
+      </p>
+<div className="flex justify-between items-center gap-6">
+  
+      
+ {/* Image Box */}
+ <div className="w-full h-[200px] bg-gray-500 rounded-lg"></div>
+ <div>
+ {/* Right Section */}
+ <div >
+      
 
-             
-            </div>
-          </div>
+      {/* Bullet Points */}
+      <ul className="space-y-4 text-gray-400">
+        <li className="flex items-center gap-2">
+          <span className="text-red-500">⮞</span> Vestibulum in ipsum velit. Aliquam libero sem asdf asf
+        </li>
+        <li className="flex items-center gap-2">
+          <span className="text-red-500">⮞</span> Ut, vehicula a erat. Phasellus ac sem sed erat pos se
+        </li>
+        <li className="flex items-center gap-2">
+          <span className="text-red-500">⮞</span> Feugiat, nisi nec dapibus a a gas dictum, ligula nulla
+        </li>
+        <li className="flex items-center gap-2">
+          <span className="text-red-500">⮞</span> Odio elit ac orci. Curabitur tincidunt nunc eu rhoncus justo
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+  
+ 
+
+     
+    </div>
+
+   
+  </div>
+</div>
+
 
           {/* Right Content */}
           <div className="space-y-6">
@@ -107,17 +125,17 @@ const ServicesDetailsMain = () => {
               {
                 number: "01",
                 title: "A Relatively Multi-Stage",
-                description: "Vestibulum in ipsum velit. Aliquam libero sem, rutrum eu scelerisque ut.",
+                description: "Vestibulum in ipsum velit. Aliquam libero sem, rutrum eu scelerisque ut Vestibulum in ipsum velit. Aliquam libero sem, rutrum eu scelerisque ut Vestibulum in ipsum velit. Aliquam libero sem, rutrum eu scelerisque ut Vestibulum in ipsum velit. Aliquam libero sem, rutrum eu scelerisque ut.",
               },
               {
                 number: "02",
                 title: "Comprehensive Includes",
-                description: "Mauris feugiat, nisl nec dapibus a dictum, ligula nulla gravida ante.",
+                description: "Mauris feugiat, nisl nec dapibus a dictum, ligula nulla gravida ante Vestibulum in ipsum velit. Aliquam libero sem, rutrum eu scelerisque ut Vestibulum in ipsum velit. Aliquam libero sem, rutrum eu scelerisque ut Vestibulum in ipsum velit. Aliquam libero sem, rutrum eu scelerisque ut .",
               },
               {
                 number: "03",
                 title: "Characters Illustrations",
-                description: "Mauris feugiat, nisl nec dapibus a dictum, ligula nulla gravida ante.",
+                description: "Mauris feugiat, nisl nec dapibus a dictum, ligula nulla gravida ante Vestibulum in ipsum velit. Aliquam libero sem, rutrum eu scelerisque ut Vestibulum in ipsum velit. Aliquam libero sem, rutrum eu scelerisque ut Vestibulum in ipsum velit. Aliquam libero sem, rutrum eu scelerisque ut.",
               },
             ].map((item, index) => (
               <div
