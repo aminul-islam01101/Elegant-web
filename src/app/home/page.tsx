@@ -9,6 +9,7 @@ import Testimonial from "@/components/view/Testimonial/Testimonial";
 import PricePlan from "@/components/view/PricePlan/PricePlan";
 import OurHistory from "@/components/view/OurHistory/OurHistory";
 import Banner2 from "@/components/view/Banner2/Banner2";
+import OurIdentity from "@/components/view/OurIdentity/OurIdentity";
 
 
 export default function HomePage() {
@@ -25,6 +26,7 @@ export default function HomePage() {
       <OurHistory />
       <Blogs />
       <Testimonial />
+      <OurIdentity />
     </div>
   );
 }
