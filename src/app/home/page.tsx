@@ -15,6 +15,7 @@ import Strategy from "@/components/view/Strategy/Strategy";
 import OurServices from "@/components/view/Strategy/OurServices/OurServices";
 import LatestNews from "@/components/view/LatestNews/LatestNews";
 import Testimonial2 from "@/components/view/Testimonial2/Testimonial2";
+import GetInTouch from "@/components/view/GetInTouch/GetInTouch";
 
 
 export default function HomePage() {
@@ -37,6 +38,7 @@ export default function HomePage() {
       <OurServices />
       <LatestNews />
       <Testimonial2 />
+      <GetInTouch />
     </div>
   );
 }
