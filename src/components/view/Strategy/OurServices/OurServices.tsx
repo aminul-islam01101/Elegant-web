@@ -32,7 +32,9 @@ const OurServices = () => {
             <h3 className="text-2xl font-bold group-hover:text-red-600 transition">
               MARKETING
             </h3>
-            <div className="w-12 h-8 bg-gray-300 rounded-lg group-hover:bg-red-600 transition"></div>
+            <span className="text-gray-400 text-2xl group-hover:text-red-600 transition">
+              &#8599;
+            </span>
           </div>
   
           {/* Service 3 */}
