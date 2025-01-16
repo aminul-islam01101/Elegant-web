@@ -10,6 +10,7 @@ import PricePlan from "@/components/view/PricePlan/PricePlan";
 import OurHistory from "@/components/view/OurHistory/OurHistory";
 import Banner2 from "@/components/view/Banner2/Banner2";
 import OurIdentity from "@/components/view/OurIdentity/OurIdentity";
+import Marquee2 from "@/components/view/Marquee2/Marquee2";
 
 
 export default function HomePage() {
@@ -27,6 +28,7 @@ export default function HomePage() {
       <Blogs />
       <Testimonial />
       <OurIdentity />
+      <Marquee2 />
     </div>
   );
 }
