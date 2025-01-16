@@ -12,6 +12,7 @@ import Banner2 from "@/components/view/Banner2/Banner2";
 import OurIdentity from "@/components/view/OurIdentity/OurIdentity";
 import Marquee2 from "@/components/view/Marquee2/Marquee2";
 import Strategy from "@/components/view/Strategy/Strategy";
+import OurServices from "@/components/view/Strategy/OurServices/OurServices";
 
 
 export default function HomePage() {
@@ -31,6 +32,7 @@ export default function HomePage() {
       <OurIdentity />
       <Marquee2 />
       <Strategy />
+      <OurServices />
     </div>
   );
 }
