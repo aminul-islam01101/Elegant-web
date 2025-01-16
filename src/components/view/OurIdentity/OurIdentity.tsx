@@ -18,7 +18,7 @@ const OurIdentity = () => {
         {/* Cards Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Card 1: Advance Tools */}
-          <div className="group bg-gray-800 p-6 rounded-lg border-2 border-black flex flex-col items-start text-start   hover:border-red-600 transition-all min-h-[350px]">
+          <div className="group bg-[2F2F2F] p-6 rounded-lg border-2 border-black flex flex-col items-start text-start   hover:border-red-600 transition-all min-h-[350px]">
             <div className="mb-4">
               <FaTools
                 size={80}
@@ -35,7 +35,7 @@ const OurIdentity = () => {
           </div>
 
           {/* Card 2: Innovation */}
-          <div className="group bg-gray-800 p-6 rounded-lg border-2 border-black flex flex-col items-start text-start hover:border-red-600 transition-all min-h-[350px]">
+          <div className="group bg-[2F2F2F] p-6 rounded-lg border-2 border-black flex flex-col items-start text-start hover:border-red-600 transition-all min-h-[350px]">
             <div className="mb-4">
               <FaLightbulb
                 size={80}
@@ -52,7 +52,7 @@ const OurIdentity = () => {
           </div>
 
           {/* Card 3: Creative Ideas */}
-          <div className="group bg-gray-800 p-6 rounded-lg border-2 border-black flex flex-col items-start text-start  hover:border-red-600 transition-all min-h-[350px]">
+          <div className="group bg-[2F2F2F] p-6 rounded-lg border-2 border-black flex flex-col items-start text-start  hover:border-red-600 transition-all min-h-[350px]">
             <div className="mb-4">
               <FaPalette
                 size={80}
@@ -69,7 +69,7 @@ const OurIdentity = () => {
           </div>
 
           {/* Card 4: Content */}
-          <div className="group bg-gray-800 p-6 rounded-lg border-2 border-black flex flex-col items-start text-start  hover:border-red-600 transition-all min-h-[350px]">
+          <div className="group bg-[2F2F2F] p-6 rounded-lg border-2 border-black flex flex-col items-start text-start  hover:border-red-600 transition-all min-h-[350px]">
             <div className="mb-4">
               <FaStar
                 size={80}
