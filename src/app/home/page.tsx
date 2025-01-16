@@ -13,6 +13,7 @@ import OurIdentity from "@/components/view/OurIdentity/OurIdentity";
 import Marquee2 from "@/components/view/Marquee2/Marquee2";
 import Strategy from "@/components/view/Strategy/Strategy";
 import OurServices from "@/components/view/Strategy/OurServices/OurServices";
+import LatestNews from "@/components/view/LatestNews/LatestNews";
 
 
 export default function HomePage() {
@@ -33,6 +34,7 @@ export default function HomePage() {
       <Marquee2 />
       <Strategy />
       <OurServices />
+      <LatestNews />
     </div>
   );
 }
