@@ -11,6 +11,7 @@ import OurHistory from "@/components/view/OurHistory/OurHistory";
 import Banner2 from "@/components/view/Banner2/Banner2";
 import OurIdentity from "@/components/view/OurIdentity/OurIdentity";
 import Marquee2 from "@/components/view/Marquee2/Marquee2";
+import Strategy from "@/components/view/Strategy/Strategy";
 
 
 export default function HomePage() {
@@ -29,6 +30,7 @@ export default function HomePage() {
       <Testimonial />
       <OurIdentity />
       <Marquee2 />
+      <Strategy />
     </div>
   );
 }
