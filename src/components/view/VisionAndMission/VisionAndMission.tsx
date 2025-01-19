@@ -49,7 +49,7 @@ const VisionAndMission = () => {
               <h3 className="text-sm uppercase tracking-widest text-gray-500 mb-2">
                 What We Are
               </h3>
-              <h2 className="text-3xl font-semibold uppercase tracking-wider">
+              <h2 className="text-4xl font-semibold tracking-wider">
                 Our Vision & Mission
               </h2>
             </div>

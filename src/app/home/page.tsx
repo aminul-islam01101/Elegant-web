@@ -17,6 +17,7 @@ import LatestNews from "@/components/view/LatestNews/LatestNews";
 import Testimonial2 from "@/components/view/Testimonial2/Testimonial2";
 import GetInTouch from "@/components/view/GetInTouch/GetInTouch";
 import VisionAndMission from "@/components/view/VisionAndMission/VisionAndMission";
+import MeetOurTeam from "@/components/view/MeetOurTeam/MeetOurTeam";
 
 
 export default function HomePage() {
@@ -41,6 +42,7 @@ export default function HomePage() {
       <Testimonial2 />
       <GetInTouch />
       <VisionAndMission />
+      <MeetOurTeam />
     </div>
   );
 }
