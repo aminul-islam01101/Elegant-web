@@ -41,7 +41,7 @@ const VisionAndMission = () => {
   return (
     <section className="bg-[#121212] text-white py-16">
       <div className="max-w-[1400px] mx-auto py-10 px-4">
-        <div className="flex flex-col md:flex-row items-start justify-between min-h-screen p-8">
+        <div className="flex flex-col md:flex-row items-start justify-between  p-8">
           {/* Left Side - Accordion */}
           <div className="w-full md:w-1/2 space-y-8">
             {/* Heading */}
