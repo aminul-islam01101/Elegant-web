@@ -11,8 +11,8 @@ import {
   
   const ContactUsMain = () => {
     return (
-      <div className="bg-black text-white py-16">
-        <div className="max-w-6xl mx-auto px-4">
+        <section className="bg-black text-white py-16">
+    <div className="max-w-[1400px] mx-auto text-white py-10 px-4">
           {/* Header */}
           <h2 className="text-4xl font-bold text-start mb-10">
             DaDa Agency <span className="text-red-500">Office Address</span>
@@ -153,7 +153,7 @@ import {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     );
   };
   
