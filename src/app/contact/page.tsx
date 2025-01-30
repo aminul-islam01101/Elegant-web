@@ -29,6 +29,8 @@ const ContactPage: NextPage = () => {
       return;
     }
 
+    console.log(process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID, "this line");
+
     // Send email using EmailJS
     emailjs
       .send(
@@ -39,7 +41,7 @@ const ContactPage: NextPage = () => {
           email: data.email,
           message: data.message,
         },
-        process.env.NEXT_PUBLIC_EMAILJS_USER_ID!
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       )
       .then(
         (result) => {
@@ -52,7 +54,7 @@ const ContactPage: NextPage = () => {
           reset();
         },
         (error) => {
-          console.error("Email send failed:", error.text);
+          console.error("Email send failed:", error);
           Swal.fire(
             "Error",
             "Failed to send your message. Please try again.",

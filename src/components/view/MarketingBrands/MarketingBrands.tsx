@@ -39,7 +39,7 @@ export default function MarketingBrands() {
             return (
               <div
                 key={item.id}
-                className="border w-[300px] md:w-[200px] text-center flex justify-center items-center h-[100px] hover:bg-red-800 rounded-md"
+                className="border w-[300px] md:w-[200px] text-center flex justify-center items-center h-[80px] hover:bg-red-800 rounded-md"
               >
                 <Image
                   src={item.image}

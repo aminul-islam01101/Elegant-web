@@ -31,10 +31,10 @@ const MarqueeItem: React.FC<MarqueeProps> = ({ children, speed = 10, x }) => {
         style={{ willChange: "transform" }}
       >
         {/* Duplicate the children for seamless scrolling */}
-        <span className="inline-block mr-8 text-[150px] uppercase font-bold">
+        <span className="inline-block mr-8 text-[38px] lg:text-[130px] uppercase font-bold  lg:-mt-10">
           {children}
         </span>
-        <span className="inline-block mr-8 text-[150px] uppercase">
+        <span className="inline-block mr-8 text-[38px] lg:text-[130px] uppercase font-bold lg:-mt-10">
           {children}
         </span>
       </motion.div>

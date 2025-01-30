@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="bg-black">
-      <div className="max-w-[1400px] mx-auto flex flex-col px-4">
+      <div className="max-w-[1400px] container flex flex-col">
         {/* talk us */}
         <div className="flex flex-col md:flex-row space-y-4 text-center md:text-balance justify-between items-center">
           <span className="headings">
@@ -80,14 +80,14 @@ export default function Footer() {
               Elegant Web Studio
             </span>
             <p className="primary-text">
-              3F Mitaka Takagi Building, <br /> Musashino-shi,80-0006 Japan{" "}
+              3F Mitaka Takagi Building, <br /> Musashino-shi,80-0006 Japan
               <br />
               Info@exampel.com
             </p>
           </div>
         </div>
         {/* horizontal line */}
-        <hr className="px-1 my-10" />
+        <hr className="px-1 my-10 bg-red-800" />
         <div className="flex justify-between mb-5">
           <span className="primary-text">
             All Right Reserved © 2025 ELagent Web Studio

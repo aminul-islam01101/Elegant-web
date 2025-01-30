@@ -19,13 +19,13 @@ import GetInTouch from "@/components/view/GetInTouch/GetInTouch";
 import VisionAndMission from "@/components/view/VisionAndMission/VisionAndMission";
 import MeetOurTeam from "@/components/view/MeetOurTeam/MeetOurTeam";
 
-
 export default function HomePage() {
   return (
     <div>
-      {/* <Banner /> */}
-      <Banner2 />
+      <Banner />
+      {/* <Banner2 /> */}
       <AboutUs />
+      <OurHistory />
       <DataServices />
       <Marquee />
       <TeamMembers />

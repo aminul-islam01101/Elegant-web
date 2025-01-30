@@ -23,10 +23,10 @@ body {
 }
 @layer utilities {
   .headings {
-    @apply text-2xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-extrabold uppercase;
+    @apply text-3xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-extrabold uppercase;
   }
   .sub-heading {
-    @apply text-base md:text-xl lg:text-4xl font-semibold uppercase text-[#D3D3D3];
+    @apply text-2xl md:text-xl lg:text-3xl  font-semibold uppercase text-[#D3D3D3];
   }
   .primary-text {
     @apply text-sm md:text-base font-bold text-[#D3D3D3];
@@ -39,6 +39,9 @@ body {
   }
   .sub_color{
     @apply text-[#6C6C6C]
+  }
+  .container{
+    @apply px-4 mx-auto
   }
 }
 
